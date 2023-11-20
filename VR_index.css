@@ -1,0 +1,80 @@
+body {
+  font-family: "Roboto", Georgia, sans-serif;
+  margin: 3%;
+}
+header {
+  background-image: url(/images/background_header.png);
+  background-repeat: no-repeat;
+  height: 60em;
+}
+.top_header_part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+button {
+  display: flex;
+  background-color: #5222d0;
+  color: #fff;
+  padding: 0.7em 1.5em;
+  border-radius: 2em;
+  border-color: transparent;
+  align-items: center;
+}
+h1,
+h2,
+h3,
+button {
+  text-transform: uppercase;
+}
+.central_header_part {
+  width: 40vw;
+  margin: 8em 3em;
+}
+h1,
+h2 {
+  font-size: 4rem;
+}
+.central_header_part p {
+  font-size: 1.5rem;
+}
+.btn_buy {
+  font-weight: bolder;
+  font-size: 2em;
+  margin-top: 2em;
+}
+.grid_posiibilities {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 2fr 1fr;
+  grid-gap: 2em;
+  margin: 3%;
+  padding: 1em 0;
+}
+.news {
+  background-color: #ec615b;
+  color: #fff;
+  padding: 0em 2em;
+}
+input {
+  font-size: 1em;
+  padding: 3% 5%;
+  border: transparent;
+  margin-bottom: 2em;
+}
+.header_navigation,
+.footer_navigation {
+  display: inline-flex;
+  list-style: none;
+  width: 40vw;
+  justify-content: space-around;
+  font-size: 1.5em;
+}
+.header_navigation > li > a:hover,
+.footer_navigation > li > a:hover {
+  color: #5222d0;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
